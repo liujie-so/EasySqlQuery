@@ -4,6 +4,9 @@
 
 例子：
 IBasicDao dao = SpringBeanUtils.getBean("basicDao");
+
 String table = "test";
+
 Map<String, Object> params = create("age_gte", 18, "id", "1");
+
 List<Map<String, Object>> list = null;
