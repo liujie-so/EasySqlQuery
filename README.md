@@ -33,3 +33,5 @@ params = create("age_gte", 18, "id", "1", "type", "1");
 // select id, xm, age from test where id='1' and age >= 18;
 
 list = dao.list(table, "id, xm, age", params, 0, -1, "type");
+
+// 还有诸如 IN,NOT_IN,IS_NULL,NOT_NULL,NOT_EQUALS,ORDER在查询关系，可自行尝试。
